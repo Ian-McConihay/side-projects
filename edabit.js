@@ -7,3 +7,6 @@ function cubes(a) {
 }
 // 3 ** 4 = 81 so it takes the first number and multiplies itself based om the second number
 //3 * 3 * 3 * 3 = 81
+function numArgs() {
+    return arguments.length
+}
