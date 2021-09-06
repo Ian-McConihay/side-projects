@@ -1,0 +1,49 @@
+/*diplay flex sets it default to go east or right like a row*/
+crossbow {
+    display:flex;
+}
+/*display flex is the same as flex-direction: row*/
+
+/*this sends the item left or west*/
+crossbow {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+/*this sends the item down or in a column*/
+crossbow {
+    display: flex;
+    flex-direction:column;
+}
+
+/*this sends the item up or north up the column*/
+crossbow {
+    display: flex;
+    flex-direction:column-reverse
+}
+
+/*This sends the item to the end of the row* or column .....x*/
+crossbow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+/*This sends the item to the center..xx..*/
+crossbow {
+    display: flex;
+    justify-content: center;
+}
+
+/*This spaces out the item. x..x..x*/
+crossbow {
+    display: flex;
+    justify-content:space-between;
+}
+
+/*this is for items spaced out but evenly for each ..x..x..x..*/
+crossbow {
+    display: flex;
+    justify-content:space-around
+}
+
