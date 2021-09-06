@@ -33,3 +33,37 @@ function sumPolygon(n) {
     return  (n - 2) * 180
 }
 //This function returns the sum of a polygon
+
+function remainder(x, y) {
+    return x % y
+}
+//returns modular
+
+function convert(minutes) {
+    return minutes * 60
+}
+// minutes to seconds
+
+function lessThan100(a, b) {
+    if(a + b >= 100) {
+        return false
+    } else {
+        return true
+    }
+}
+//
+
+function squared(b) {
+    return b * b
+}
+//Squared
+
+function printArray(number) {
+    var newArray = [];
+
+    for(var i = 1; i <= number;) {
+        newArray.push(i);
+    }
+
+    return newArray;
+}
